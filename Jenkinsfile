@@ -64,7 +64,7 @@ pipeline {
         stage('Clone Code') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/merinpwilson/devop1.git'
+                    url: 'https://github.com/merinpwilson/day2devop2.git'
             }
         }
 
